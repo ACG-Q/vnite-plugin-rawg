@@ -1,0 +1,46 @@
+{
+  "id": "vnite-plugin-rawg",
+  "name": "vnite-plugin-rawg",
+  "version": "0.1.0",
+  "description": "A Vnite plugin: vnite-plugin-rawg",
+  "author": "六记",
+  "license": "GPL-3.0-only",
+  "vniteVersion": "^4.0.0-beta.2",
+  "main": "dist/index.js",
+  "icon": "icon.png",
+  "keywords": [
+    "vnite-plugin",
+    "scraper",
+    "vnite-plugin-rawg"
+  ],
+  "category": "scraper",
+  "configuration": [],
+  "repo": {
+    "owner": "acg-q",
+    "name": "vnite-plugin-rawg"
+  },
+  "scripts": {
+    "build": "webpack",
+    "build:watch": "webpack --watch",
+    "pack": "npm run build && npx vnite-plugin-sdk pack .",
+    "clean": "rimraf dist",
+    "prepack": "npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "rimraf": "^5.0.0",
+    "terser-webpack-plugin": "^5.3.14",
+    "ts-loader": "^9.5.2",
+    "typescript": "^5.8.3",
+    "vnite-plugin-sdk": "^0.2.2",
+    "webpack": "^5.100.2",
+    "webpack-cli": "^6.0.1"
+  },
+  "dependencies": {
+    "cheerio": "^1.1.2",
+    "@babel/parser": "^7.28.5",
+    "@babel/types": "^7.28.5",
+    "@types/babel__traverse": "^7.28.0",
+    "@babel/traverse": "^7.28.5"
+  }
+}

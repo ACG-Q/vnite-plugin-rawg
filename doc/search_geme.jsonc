@@ -1,0 +1,222 @@
+// https://rawg.io/api/games?page_size=1&search=My%20Cute%20Roommate&key=c542e67aec3a4340908f9de9e86038af
+{
+    // 总结果数量
+    "count": 11461,
+    // 下一页 - 分页链接
+    "next": "https://api.rawg.io/api/games?key=c542e67aec3a4340908f9de9e86038af&page=2&page_size=1&search=My+Cute+Roommate",
+    // 上一页 - 分页链接
+    "previous": null,
+    "results": [
+        // 游戏搜索结果列表
+        {
+            // 游戏名称 缩写
+            "slug": "my-cute-roommate",
+            // 游戏名称
+            "name": "My Cute Roommate",
+            // 平均游玩时长
+            "playtime": 4,
+            // 支持平台详情
+            "platforms": [
+                {
+                    "platform": {
+                        "id": 4,
+                        "name": "PC",
+                        "slug": "pc"
+                    }
+                }
+            ],
+            // 发行商店详情
+            "stores": [
+                {
+                    "store": {
+                        "id": 1,
+                        "name": "Steam",
+                        "slug": "steam"
+                    }
+                },
+                {
+                    "store": {
+                        "id": 9,
+                        "name": "itch.io",
+                        "slug": "itch"
+                    }
+                }
+            ],
+            // 发布时间
+            "released": "2020-04-07",
+            // 是否为预发布版本
+            "tba": false,
+            // 游戏背景图片
+            "background_image": "https://media.rawg.io/media/screenshots/fe2/fe2df38074865cc188d60b9dd5575c3d.jpg",
+            // 游戏评分
+            "rating": 4.12,
+            // 游戏评分最高等级
+            "rating_top": 4,
+            // 游戏评分详情
+            "ratings": [
+                {
+                    "id": 4,
+                    "title": "recommended",
+                    "count": 7,
+                    "percent": 87.5
+                },
+                {
+                    "id": 5,
+                    "title": "exceptional",
+                    "count": 1,
+                    "percent": 12.5
+                }
+            ],
+            // 游戏评分详情 总数量
+            "ratings_count": 7,
+            // 游戏评论详情 总数量
+            "reviews_text_count": 0,
+            // 游戏添加数量
+            "added": 61,
+            // 游戏添加状态详情
+            "added_by_status": {
+                "yet": 4,
+                "owned": 36,
+                "beaten": 6,
+                "toplay": 12,
+                "dropped": 1,
+                "playing": 2
+            },
+            // 游戏Metacritic评分
+            "metacritic": null,
+            // 游戏建议数量
+            "suggestions_count": 244,
+            // 游戏更新时间
+            "updated": "2025-04-20T22:08:44",
+            // 游戏ID
+            "id": 427566,
+            // 游戏评分 字符串格式
+            "score": "78.47334",
+            // 游戏视频剪辑
+            "clip": null,
+            // 游戏标签
+            "tags": [
+                {
+                    "id": 31,
+                    "name": "Singleplayer",
+                    "slug": "singleplayer",
+                    "language": "eng",
+                    "games_count": 244123,
+                    "image_background": "https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg"
+                },
+                {
+                    "id": 67,
+                    "name": "Management",
+                    "slug": "management",
+                    "language": "eng",
+                    "games_count": 8874,
+                    "image_background": "https://media.rawg.io/media/games/a91/a911f0a91991469e398fa70091507a5b.jpg"
+                },
+                {
+                    "id": 1709,
+                    "name": "work",
+                    "slug": "work",
+                    "language": "eng",
+                    "games_count": 9277,
+                    "image_background": "https://media.rawg.io/media/games/a91/a9108384b5d691080b294cd744f350c9.jpg"
+                },
+                {
+                    "id": 3068,
+                    "name": "future",
+                    "slug": "future",
+                    "language": "eng",
+                    "games_count": 3140,
+                    "image_background": "https://media.rawg.io/media/games/5a9/5a9e785af72ae88026380f7987f23d90.jpg"
+                },
+                {
+                    "id": 8234,
+                    "name": "fall",
+                    "slug": "fall",
+                    "language": "eng",
+                    "games_count": 3544,
+                    "image_background": "https://media.rawg.io/media/games/de9/de969f890d1a173bc80021150b4f675c.jpg"
+                },
+                {
+                    "id": 712,
+                    "name": "school",
+                    "slug": "school",
+                    "language": "eng",
+                    "games_count": 4580,
+                    "image_background": "https://media.rawg.io/media/screenshots/b87/b876d9664840d7e2f53cf5c649476935.jpg"
+                }
+            ],
+            // 游戏ESRB分级
+            "esrb_rating": {
+                "id": 5,
+                "name": "Adults Only",
+                "slug": "adults-only",
+                "name_en": "Adults Only",
+                "name_ru": "Только для взрослых"
+            },
+            // 游戏是否为用户游戏
+            "user_game": null,
+            // 游戏评论数量
+            "reviews_count": 8,
+            // 游戏颜色 饱和颜色
+            "saturated_color": "0f0f0f",
+            // 游戏颜色 主要颜色
+            "dominant_color": "0f0f0f",
+            // 游戏截图
+            "short_screenshots": [
+                {
+                    "id": -1,
+                    "image": "https://media.rawg.io/media/screenshots/fe2/fe2df38074865cc188d60b9dd5575c3d.jpg"
+                },
+                {
+                    "id": 2334307,
+                    "image": "https://media.rawg.io/media/screenshots/9cd/9cd1365363d99f1ccc46e2140f91df27.jpg"
+                },
+                {
+                    "id": 2334309,
+                    "image": "https://media.rawg.io/media/screenshots/022/022f882087b35e782df8f416c9af7c75.jpg"
+                },
+                {
+                    "id": 2334310,
+                    "image": "https://media.rawg.io/media/screenshots/f77/f77fa58a645024f6457a728e97347dad.jpg"
+                },
+                {
+                    "id": 2334311,
+                    "image": "https://media.rawg.io/media/screenshots/5db/5dba98dcf56f5657c8da0d6aab15ec61.jpg"
+                },
+                {
+                    "id": 2334312,
+                    "image": "https://media.rawg.io/media/screenshots/907/9076ecae03733e9bc75395922d5f316d.jpg"
+                }
+            ],
+            // 游戏 主要发行平台
+            "parent_platforms": [
+                {
+                    "platform": {
+                        "id": 1,
+                        "name": "PC",
+                        "slug": "pc"
+                    }
+                }
+            ],
+            // 游戏游戏类型
+            "genres": [
+                {
+                    "id": 51,
+                    "name": "Indie",
+                    "slug": "indie"
+                },
+                {
+                    "id": 3,
+                    "name": "Adventure",
+                    "slug": "adventure"
+                },
+                {
+                    "id": 14,
+                    "name": "Simulation",
+                    "slug": "simulation"
+                }
+            ]
+        }
+    ],
+    "user_platforms": false
+}
